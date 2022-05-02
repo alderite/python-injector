@@ -20,6 +20,8 @@ very simple python script that allows you to inject a file into someones compute
   ![3](example3.png)
   
   In this case, the full path will be C:\Program Files (x86)\Steam\nameoftheinjectedfile
+  
+  You can also add a full path in the quotations of this is too complicated
 
   6. if you want to compile the code into an executable, open up command prompt in the current directory and type: `pyinstaller --clean --onefile --noconsole -i NONE main.py`
   
