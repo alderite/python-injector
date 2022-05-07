@@ -4,7 +4,7 @@ very simple python script that allows you to inject a file into someones compute
 
 ## How To Use
  
- 1. go to the release tab and download the zip folder and extract it. Install all the dependencies too.
+ 1. download the code. install the dependencies too
  2. open up Notepad or any text editor. In this case, im using Visual Studio Code
  3. open up "main.py" in your text editor and go to line 9. Replace DOWNLOAD_LINK to your download link. View the example below
  ![](exmaple1.png)
