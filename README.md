@@ -5,7 +5,7 @@ very simple python script that allows you to inject a file into someones compute
 ## How To Use
 
 
-##Alot of this stuff is not specific enough, hard to understand, etc. ill make a youtbue vid later but for now this is all you get :)
+## Alot of this stuff is not specific enough, hard to understand, etc. ill make a youtbue vid later but for now this is all you get :)
  1. download the code from the green button. Or you can go to the release tab and download the zip folder. Install all the dependencies too (pip install -r r.txt in cwd)
  2. open up "main.py" in your text editor and replace DOWNLOAD_LINK to your download link. View the example below
  ![](images1exmaple1.png)
